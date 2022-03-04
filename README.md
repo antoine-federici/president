@@ -42,7 +42,7 @@ Building project
 ./vendor/bin/sail up -d --build
 ./vendor/bin/sail php artisan key:generate
 ./vendor/bin/sail php artisan config:cache
-./vendor/bin/sail artisan surveys:refresh
+./vendor/bin/sail php artisan surveys:refresh
 ```
 
 Go to http://localhost  
